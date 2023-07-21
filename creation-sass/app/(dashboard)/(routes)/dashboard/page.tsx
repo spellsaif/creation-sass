@@ -1,6 +1,9 @@
+import { Button } from "@/components/ui/button";
 
 export default function Dashboard() {
     return(
-        <div>This is dashboard - unprotected!</div>
+        <div>
+            <Button>Logout</Button>
+        </div>
     )
 }
